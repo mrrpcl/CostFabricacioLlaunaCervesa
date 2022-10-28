@@ -17,6 +17,8 @@
                 $this->assertEquals(M_PI, $result);
                 $result = $this->llauna_test->volum(0, 1);
                 $this->assertEquals(0, $result);
+                $result = $this->llauna_test->volum(0, 0);
+                $this->assertEquals(0, $result);
             }
             
             public function testCost(){
